@@ -1,0 +1,70 @@
+/* rip sponsorship trash */
+#twig-top {
+    display: none;
+}
+
+#twig-navbar,
+.twig-body,
+.twig-body .topbar,
+.twig-body .hamburger .hb-nav,
+.twig-body .hamburger .hb-trigger {
+    top: unset;
+}
+
+.twig-body,
+.twig-navbar {
+    margin-top: unset !important;
+}
+
+.sponsor-dyn-banner {
+    display: none;
+}
+
+/* rip shitty devices tags */
+.tagbar {
+    display: none;
+}
+
+.navbits {
+    top: unset;
+}
+
+/* fix topbar width */
+.topbar {
+    width: 100%;
+}
+
+/* there's already search field on the right... */
+#showthread-topsearch {
+    display: none;
+}
+
+/* make 'ALL TIME' button look bit better /w dark theme */
+#topthanked_nav_top {
+    text-align: center;
+    text-indent: unset;
+}
+
+.topthanked_nav:not(.topthanked_selected):not(:hover) {
+    background-color: #3A3A3A !important;
+    color: #757575 !important;
+}
+
+/* make current selected forum bg/text bit better /w dark theme */
+.sibling-forum-listing UL LI.current {
+    background-color: #3A3A3A !important;
+}
+
+.sibling-forum-listing UL LI.current a {
+    color: #eee;
+}
+
+/* why do we need to set margin left here? */
+.topRankedThreadsForumdisplay {
+    margin-left: unset;
+}
+
+/* why is this even a thing? */
+#tabControl_loading {
+    display: none !important;
+}

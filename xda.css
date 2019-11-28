@@ -68,3 +68,8 @@
 #tabControl_loading {
     display: none !important;
 }
+
+/* same */
+.leaderboard {
+    display: none;
+}

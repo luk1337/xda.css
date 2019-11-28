@@ -39,6 +39,26 @@
     display: none;
 }
 
+/* this is kinda useless */
+.title-container {
+    display: none;
+}
+
+/* bit more usable .page margin-top */
+.page:not(.page-showthread) {
+    margin-top: 20px;
+}
+
+/* bit more usable #sidepanel margin-top */
+#sidepanel {
+    margin-top: 29px;
+}
+
+/* that looks bit better */
+#forum-bottom {
+    margin-top: 15px;
+}
+
 /* make 'ALL TIME' button look bit better /w dark theme */
 #topthanked_nav_top {
     text-align: center;

@@ -44,8 +44,8 @@
     display: none;
 }
 
-/* bit more usable .page margin-top */
-.page:not(.page-showthread) {
+/* bit more usable .page-index margin-top */
+.page-index {
     margin-top: 20px;
 }
 

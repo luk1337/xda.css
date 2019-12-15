@@ -97,6 +97,19 @@ A.post-button-left I {
     color: #eee;
 }
 
+/* make devdb editor bit nicer */
+form[name="project_edit"] textarea[name="project__productDescription"] {
+    width: 100% !important;
+}
+
+form[name="project_edit"] #vB_Editor_001_textarea {
+    padding: 0 !important;
+}
+
+form[name="project_edit"] table {
+    width: 100% !important;
+}
+
 /* why do we need to set margin left here? */
 .topRankedThreadsForumdisplay {
     margin-left: unset;

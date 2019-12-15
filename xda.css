@@ -107,6 +107,11 @@ A.post-button-left I {
     display: none !important;
 }
 
+/* we get it, it's devdb enabled forum */
+#top_tabControls .devdb-tag {
+    display: none;
+}
+
 /* same */
 .leaderboard {
     display: none;
